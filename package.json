@@ -1,0 +1,46 @@
+{
+  "name": "grunt-couchbase",
+  "description": "Import and export Couchbase views with Grunt.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/majorleaguesoccer/grunt-couchbase",
+  "author": {
+    "name": "Tom Youds",
+    "email": "tom.youds@mlssoccer.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/majorleaguesoccer/grunt-couchbase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/majorleaguesoccer/grunt-couchbase/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/majorleaguesoccer/grunt-couchbase/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1",
+    "nock": "~0.23.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

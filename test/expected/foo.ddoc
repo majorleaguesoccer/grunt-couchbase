@@ -1,0 +1,7 @@
+{
+  "views": {
+    "bar": {
+      "map": "function(doc, meta) { if (doc.value) { emit(doc.value, meta.id);} }"
+    }
+  }
+}
